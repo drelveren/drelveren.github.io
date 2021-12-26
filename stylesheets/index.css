@@ -24,22 +24,6 @@ main{
 
 /* Element | file:///C:/Users/dcagl/Desktop/front-end-dev-book/codecamp-projects/web-design/personal-portfolio/index.html */
 
-body > header:nth-child(1) {
-    /* align-self: center; */
-    margin: auto;
-    height: fit-content;
-    background-color:#9ba9fa; 
-}
-
-/* Element | file:///C:/Users/dcagl/Desktop/front-end-dev-book/codecamp-projects/web-design/personal-portfolio/index.html */
-
-body > header:nth-child(1) > p:nth-child(2) {
-    margin: auto;
-    text-align: center;
-}
-
-/* Element | file:///C:/Users/dcagl/Desktop/front-end-dev-book/codecamp-projects/web-design/personal-portfolio/index.html */
-
 #navbar > h2:nth-child(1) {
     margin-left:5vw ;
     font-size: 2vw;
@@ -66,6 +50,8 @@ body > header:nth-child(1) > p:nth-child(2) {
 
 header > p {
     margin-left:5vw;
+    margin: auto;
+    text-align: center;
 }
 
 header > hr {
@@ -76,6 +62,9 @@ header{
     border-radius:15px;
     position:sticky;
     top:0;
+    margin: auto;
+    height: fit-content;
+    background-color:#9ba9fa; 
 }
 
 #important_quote{
