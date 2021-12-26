@@ -50,8 +50,8 @@ main{
 
 header > p {
     margin-left:5vw;
-    margin: auto;
-    text-align: center;
+/*    margin: auto;        */
+/*    text-align: center;  */
 }
 
 header > hr {
