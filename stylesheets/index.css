@@ -1,9 +1,21 @@
+@font-face {
+    font-family: 'Yu Gothic';
+    src: url('../fonts/YuGothic-Light.eot');
+    src: url('../fonts/YuGothic-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/YuGothic-Light.woff2') format('woff2'),
+        url('../fonts/YuGothic-Light.woff') format('woff'),
+        url('../fonts/YuGothic-Light.ttf') format('truetype'),
+        url('../fonts/YuGothic-Light.svg#YuGothic-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Dosis', sans-serif;
-} 
+    font-family: 'Yu Gothic', sans-serif;
+}
 
 main{
     background-image:url(../images/dot-grid.png) ; 
@@ -16,7 +28,7 @@ main{
     align-items: baseline;
 /*     margin: auto; */
     gap:15px;
-    font-size: 1.5vw;
+    font-size: 2vw;
     margin-bottom: 5px;
 }
 
@@ -243,4 +255,34 @@ a {
         height:50%;
     }
 
+}
+
+@media  screen and (max-width: 1024px) and (min-width: 480px) {
+    
+    
+    #navbar { 
+    font-size:inherit; 
+    }
+    #navbar > h2 { 
+    font-size: 3.5vh;
+    }
+    #navbar > img { 
+        width:auto;
+    }
+    
+    #welcome-section{ 
+    height:65vh;
+    }
+    
+    #hello-block { 
+    font-size: 4.4vh
+    }
+    
+    #hello-block  > p{
+        font-size :3.5vh;
+    }
+    
+    .project-tile > ul{ 
+    font-size : 3.5vh;
+    }
 }
