@@ -125,22 +125,26 @@ header{
     display:flex;
     flex-direction:row;
     
-    width: 40%;
-    height: 8%;
+    width: 80%;
+    height: 50%;
     justify-content: center;
     /*! gap: 25px; */
     font-size: 2vw;
-    margin-top: 35px;
     /*! height: fit-content; */
+    margin-bottom: 5%;
+    /*! align-items: baseline; */
 }
 
 .contact-link {
     height:80%;
     margin:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 .contact-link > img {
-    height:100%;
+    height:2em;
     margin:auto;
 }
 
@@ -228,12 +232,12 @@ a {
     
     #contact{
         border-radius:7px;
-        height:14vh;
+        height:fit-content;
     }
     
     #contact-header{
         text-align:center;
-        margin-top:5px;
+        margin-top:5%;
     }
 
     #contact-header > h1 {
@@ -248,7 +252,8 @@ a {
         width: 100%;
         height: 15%;
         font-size: 2vh;
-        margin:auto;
+        /*! margin:auto; */
+        margin-bottom: 10%;
     }
 
     a > img {
